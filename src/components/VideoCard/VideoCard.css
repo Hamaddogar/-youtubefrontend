@@ -1,0 +1,104 @@
+.VideoCard {
+    width: 295px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.VideoImg {
+    height: 162px;
+    width: 295px;
+    margin-bottom: 0;
+}
+
+.VideoData {
+    display: flex;
+    padding-top: 10px;
+}
+
+.ChannelDetails {
+    margin-left: 10px;
+}
+
+.ChannelDetails p{
+    margin-top: -18px;
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+    font-weight: 550 ;
+    margin-bottom: 15px;
+}
+
+.ChannelDetails h5{
+    margin-top: -5 ;
+    color:rgb(26, 26, 26);
+}
+
+.duration {
+    background-color: rgb(31, 31, 31);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    color:white;
+    border-radius: 3px;
+    position: absolute;
+    top: 135px;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.WatchLater {
+    position: absolute;
+    top: 10px;
+    background-color:black;
+    color:white !important;
+    right: 10px;
+    font-size: 20px !important;
+    padding: 4px 4px;
+    opacity: 0.8;
+    align-items: center ;
+    border-radius:3px;
+    display: none;
+     
+}
+
+.PlaylistAdd {
+    position: absolute;
+    top: 50px;
+    background-color:black;
+    color:white !important;
+    right: 10px;
+    font-size: 20px !important;
+    padding: 4px 4px;
+    opacity: 0.8;
+    align-items: center ;
+    border-radius:3px;
+    display: none;
+}
+
+.VideoIcon {
+    font-size: 20px !important;
+     
+}
+
+.VideoCard:hover .PlaylistAdd{
+    display: flex;
+}
+
+.VideoCard:hover .WatchLater{
+    display: flex;
+}
+
+.moreIcon {
+    color:rgb(131, 131, 131) !important;
+}
+
+.moreIcon:hover{
+    color:rgb(83, 83, 83) !important;
+    cursor: pointer;
+}
+
+.cname:hover{
+    color:rgb(59, 59, 59) !important;
+    cursor: pointer;
+}
